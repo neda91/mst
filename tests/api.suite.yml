@@ -1,0 +1,7 @@
+actor: ApiTester
+modules:
+    enabled:
+        - REST:
+            url: http://localhost/mst/web/
+            depends: PhpBrowser
+            part: Json
